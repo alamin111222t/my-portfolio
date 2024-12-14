@@ -1,0 +1,427 @@
+body{
+    background-image: url(pic/bannerBg-kYZGn3z5.jpg);
+    background-size:cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+/* navver start  */
+/* navver start  */
+/* navver start  */
+nav{
+    background-color:#03257F ;
+}
+.navbar-toggler {
+    color: #22eec9;
+    background-color:#22eec9 ;
+} 
+li{
+    margin:0px 10px;
+}
+#nav-color-change{
+    color:rgba(0, 0, 0,0.9);
+    font-weight: 500;
+    font-size: 25px;
+    color: silver;
+}
+.btn-1{
+    border: 2px solid  #58E2C9;
+    border-radius: 10px;
+    padding: 0px 5px;
+    text-align: center;
+}
+#nav-color-change:hover{
+    color: #22eec9;
+}
+.btn-1:hover{
+    background-color: #334155;
+
+}
+
+/* nav enddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/* nav enddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/* nav enddddddddddddddddddddddddddddddddddddddddddddddddddd */
+/* first section start */
+.first-section{
+    margin-top: 45%;
+}
+.hi-myname{
+    color: aqua;
+    font-size: 30px;
+    
+}
+.Alamin{
+    color: white;
+    white-space:nowrap;
+    font-size: 65px;
+    margin-top: 3%;
+    
+}
+@media (max-width:680px){
+    .Alamin{
+        font-size: 50px;
+    }
+}
+.my-name-is{
+    text-align:left ;
+}
+@media (max-width:768px){
+    .my-name-is{
+        text-align:center;
+    } 
+}
+.I-am-awebdeveloper{
+    margin-top: 5%;
+    color: rgb(204, 214, 246);
+    font-size: 22px;
+
+}
+.btn-2{
+    padding: 15px 40px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #22eec9;
+    border: 2px solid #22eec9;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btn-2:hover{
+    color: aliceblue;
+    background-color: #58E2C9;
+}
+.laptop{
+    padding: 0px;
+}
+@media(min-width:768px) {
+    .laptop{
+        padding-left: 200px;
+    }
+    
+}
+@media(max-width:767px) {
+    .laptop{
+        padding-top: 10%;
+    }
+    
+}
+/* First section doneeeeeeeeeeeeeeeeeeeeeeeee */
+/* First section doneeeeeeeeeeeeeeeeeeeeeeeee */
+
+/* Second section run */
+/* Second section run */
+/* Second section run */
+
+.second-section{
+    margin-top: 15%;
+}
+.About-me{
+    color: rgb(204, 214, 246);
+    font-size:25px ;
+}
+@media(max-width:768px){
+    .About-me{
+        font-size:20px ;
+    }
+}
+.alaminlogo{
+    border-radius: 10px;
+    border:5px solid #58E2C9;   
+}
+@media(max-width:767px){
+    .alaminlogo{
+       width: 100%;  
+    }
+}
+.alaminlogo{
+    border-radius: 10px;
+    border:5px solid #58E2C9;   
+}
+.alaminlogo:hover{
+    opacity:0.9;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border:5px solid #e25c58; 
+}
+.alaminpic{
+    padding: auto;
+    
+}
+@media (min-width:768px){
+    .alaminpic{
+        padding-top: 30%;
+        padding-left: 30%;
+        
+    }
+}
+@media (max-width:767px){
+    .alaminpic{
+        padding-top: 10%;     
+    }
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+.nowrap:hover{
+    color: #22eec9;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#size-change{
+    font-size: 28px;
+}
+.gap1{
+    padding-left: 15%;
+}
+.color-cng{
+    color: #22eec9;
+    
+}
+.scrollbar{
+    margin-top: 10%;
+    text-align: center;
+}
+.box{
+    color: #22eec9;
+    display: inline-block;
+    border: 5px solid White;
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 35px;
+    border-radius: 10px;
+    font-size: 600;
+}
+
+/* second section end */
+/* second section end */
+
+/* Third section Start */
+/* Third section Start */
+hr:hover{
+    color: aliceblue;
+    border-bottom: 10px solid white;
+}
+
+.box-1{
+    border: 5px  White;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(2, 11, 57,0.5);
+    margin-left: 10%;
+}
+.box-1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 5px solid #22eec9;
+}
+.alamin1{
+    justify-content: center;
+    text-align: center;
+}
+
+i:hover{
+    color: #22eec9;
+}
+
+/* Third section End
+Third section End
+Third section End */
+
+/* fourth section start */
+/* fourth section start */
+.div-box-1{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+    
+}
+.divbox-1{
+    border: 2px solid white;
+    height:600px;
+    width:320px ;
+    border-radius: 10px;
+
+}
+.div-box{
+    width:320px ;
+    height:370px ;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.img-1{
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+.div-box:hover .img-1{
+    transform: translateY(-50%);
+    transition:transform 8s;
+
+}
+.title-class{
+    margin-top:20px;
+    padding: 20px;
+    position:absolute;
+    
+}
+.fourthsec-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.padding-top-livelink{
+    padding-top: 20px;
+}
+
+.live-link{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.live-link:hover{
+    color: white;
+    background-color:#0F172A ;
+}
+/* fourth section end */
+/* fourth section end */
+
+/* fifth section runnig */
+/* fifth section runnig */
+.box-a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-ab{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgba(2, 11, 57,0.5);
+    padding: 10px 20px;
+}
+.box-ab:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+
+}
+.btn-4{
+    padding: 10px 20px;
+    border: 2px solid #22eec9;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #22eec9;
+    background-color: c;
+    text-decoration: none;
+}
+.btn-4:hover{
+    color: azure;
+    border:2px solid white;
+}
+/* fifth section end */
+/* fifth section end */
+/* sixtth section start */
+/* sixtth section start */
+/* General Styles */
+
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Title and Description */
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.section-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.say-hello-btn {
+    background-color: #00c9ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+.contact-form-container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-textarea {
+    resize: none;
+    height: 150px;
+}
+
+.submit-btn {
+    background-color: #00c9ff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.footer a {
+    color: #00c9ff;
+    text-decoration: none;
+}
+
+/* sixtth section start */
+
